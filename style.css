@@ -1,0 +1,134 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #0055FF;
+  color: white;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  background-color: #FF6600;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.cta-button:hover {
+  background-color: #e55c00;
+}
+
+/* Product Section */
+#products {
+  padding: 50px 0;
+  background-color: #fff;
+  text-align: center;
+}
+
+#products h2 {
+  margin-bottom: 30px;
+}
+
+/* Slider Container */
+.product-slider {
+  width: 99%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  animation: slide 15s linear infinite; /* Animation duration */
+}
+
+.product {
+  flex: 0 0 auto;
+  width: 200px;
+  margin: 0 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.product:hover {
+  transform: scale(1.3);
+}
+
+/* Infinite Slide Animation */
+/* @keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-50%); 
+  }
+  100% {
+    transform: translateX(-90%); 
+  }
+} */
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
