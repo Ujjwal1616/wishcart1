@@ -1,0 +1,207 @@
+General Reset
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    
+}
+body{
+   
+        /* background-color: rgb(73, 159, 131); */
+       font-family: Arial, sans-serif;
+       font-family: Arial, sans-serif;
+       margin: 10px;
+   padding: 0;
+   height: 100vh;
+   font-family: Arial, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   background: linear-gradient(
+       rgba(255, 255, 255, 0.5),
+       rgba(34, 2, 2, 0.7)
+   ),
+   url('wishcart1.jpg'); 
+   height:auto;
+   width:auto;
+   background-size:contain;
+   /* background-color: #4c836b;  */
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 100% 100%;
+   
+ 
+
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 54vh; 
+    min-width:200px;
+    margin: auto;
+    max-width: 900px; 
+    padding: 200px;
+    background-image:flex;
+   
+}
+
+
+.container1 {
+    margin-top: 10px;
+    text-align: left;
+}
+
+.container2 {
+    margin-top: -20px;
+    text-align: right;
+}
+
+.container3 {
+    text-align: center;
+}
+.container4 {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 54vh; 
+    min-width:200px;
+    margin: auto;
+    max-width: 900px; 
+    padding: 200px;
+    background-image:100% 100%;
+   
+
+
+  /
+}
+.jpg {
+    text-align: center;
+    margin: 20px;
+   
+}
+.jpg img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    max-width:400px;
+    padding:20px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.9);
+}
+.container5{
+    height: 900px;
+    width: 900px;
+            
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 60px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            box-sizing: border-box;
+            align-items: center;
+            display:flex;
+            background-image: url(wishcart1.jpg);
+            background-size: cover;
+            position: relative;
+
+            
+           
+}
+.container6 form {
+    margin-top: 2px;
+    text-align: center;
+}
+
+.container6 button {
+    width: 100%;
+    padding: 1px;
+    font-size: 19px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e9e9e9;
+}
+
+.container6 button:hover {
+    background-color: #ddd;
+}
+
+
+select {
+width: 100%;
+margin-bottom: 15px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+input {
+    border-radius:12px;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+button {
+    height: 40px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+h3 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-align: left;
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+form{
+    flex-direction: column;
+    gap: 10px;
+}
+button[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4cbadf;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
