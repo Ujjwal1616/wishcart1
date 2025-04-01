@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WishCart - E-commerce Website</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to WishCart</h1>
+        <div class="cart">
+            <button id="cart-button" onclick="toggleCart()">
+                Cart (<span id="cart-count">0</span> items)
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <h2>Our Products</h2>
+        <section class="products" id="Product">
+            <h2>SHOES</h2>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1608380272894-b3617f04b463?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Product 1">
+                <p>Puma- $20</p>
+                <button onclick="addToCart('Puma', 20)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1582231640349-6ea6881fabeb?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Product 2">
+                <p>Reebok - $30</p>
+                <button onclick="addToCart('Reebok', 30)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1585843736857-bd7438e55c67?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Product 3">
+                <p>Air-Jordan - $50</p>
+                <button onclick="addToCart('Air-Jordan', 50)">Add to Cart</button>
+            </div>
+        </section>
+        <br><br>
+
+        <section class="products" id="Product">
+            <h2>Clothes</h2>
+            <div class="product">
+                <img src="https://images.pexels.com/photos/4071129/pexels-photo-4071129.jpeg" alt="Product 1">
+                <p>US POLO- $20</p>
+                <button onclick="addToCart('US POLO', 20)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://media.gettyimages.com/id/2135545872/photo/kyiv-ukraine-yellow-and-blue-shirts-hang-on-hangers-on-a-rack-in-a-zara-store-that-belongs-to.jpg?s=612x612&w=0&k=20&c=Rza2ZrkqPsFfHEv1EDVn504K9bWAjgUHh-rGLN92iRg=" alt="Product 2">
+                <p>ZARA - $30</p>
+                <button onclick="addToCart('ZARA', 30)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://media.gettyimages.com/id/1293366109/photo/this-one-match-perfect-with-me.jpg?s=612x612&w=0&k=20&c=wJ6yYbRrDfdmoViuQkX39s2z_0lCiNQYgEtLU--0EbY=" alt="Product 3">
+                <p>Raymond - $50</p>
+                <button onclick="addToCart('Raymond', 50)">Add to Cart</button>
+            </div>
+        </section>
+<!-- ---------- -->
+ <!-- ---------- -->
+  <!-- -------- -->
+
+
+
+  <!-- -------------- -->
+
+
+
+
+
+       <section class="products" id="Product">
+            <h2>Laptop</h2>
+            <div class="product">
+                <img src="https://c4.wallpaperflare.com/wallpaper/191/926/549/brand-acer-acer-official-wallpaper-preview.jpg" alt="Product 1">
+                <p>ACER- $320</p>
+                <button onclick="addToCart('ACER', 320)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/samsung_oled.jpg" alt="Product 2">
+                <p>samsung - $430</p>
+                <button onclick="addToCart('samsung', 430)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://wallpapers.com/images/hd/dell-4k-gaming-laptop-wx985sezpkjvwyr3.jpg" alt="Product 3">
+                <p>Dell - $350</p>
+                <button onclick="addToCart('Dell', 350)">Add to Cart</button>
+            </div>
+        </section>
+        <br><br><br><br>
+
+        <section class="products" id="Product">
+            <h2>Mobile</h2>
+            <div class="product">
+                <img src="https://images.pexels.com/photos/4071129/pexels-photo-4071129.jpeg" alt="Product 1">
+                <p>US POLO- $20</p>
+                <button onclick="addToCart('US POLO', 20)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://media.gettyimages.com/id/2135545872/photo/kyiv-ukraine-yellow-and-blue-shirts-hang-on-hangers-on-a-rack-in-a-zara-store-that-belongs-to.jpg?s=612x612&w=0&k=20&c=Rza2ZrkqPsFfHEv1EDVn504K9bWAjgUHh-rGLN92iRg=" alt="Product 2">
+                <p>ZARA - $30</p>
+                <button onclick="addToCart('ZARA', 30)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://media.gettyimages.com/id/1293366109/photo/this-one-match-perfect-with-me.jpg?s=612x612&w=0&k=20&c=wJ6yYbRrDfdmoViuQkX39s2z_0lCiNQYgEtLU--0EbY=" alt="Product 3">
+                <p>Raymond - $50</p>
+                <button onclick="addToCart('Raymond', 50)">Add to Cart</button>
+            </div>
+        </section>
+        <br>
+        <section class="cart-container" id="cart-container">
+            <h2>Your Cart</h2>
+            <div id="cart-items"></div>
+            <p>Total: $<span id="total-price">0</span></p>
+            <button onclick="proceedToBilling()">Proceed to Billing</button>
+            <button onclick="clearCart()">Clear Cart</button>
+        </section>
+    </main>
+
+    <br><br><br>
+    <footer>
+        <p>© 2025 WishCart. All Rights Reserved.</p>
+    </footer>
+
+    <script src="javascript1.js"></script>
+</body>
+</html>
